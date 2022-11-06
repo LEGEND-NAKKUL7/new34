@@ -1,0 +1,334 @@
+#h1-a{
+    background: linear-gradient( #FF69B4, #00FFFF);
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+head{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    
+}
+
+body h1{
+    font-family: myFont; 
+       border-style: solid;
+       border-color: black;
+       border-radius: 10px;
+       background: linear-gradient(#FF69B4, #00FFFF) ; text-decoration: linear-gradient(#FFD700, #FF0000);
+       
+       
+}
+
+
+
+
+span{
+    color: #66FF33;
+}
+
+
+
+.p1 {
+    font-size: 20px;
+    background: linear-gradient(#FF69B4, #00FFFF);background-size: cover;
+    border-style: outset;
+    border-width: 2px;
+    border-color: black;
+}
+
+#p2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#p3{
+    background-color: black;
+    color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#audio{
+    border-style:outset;
+    border-width: 5px;
+    border-color: gold;
+    background: linear-gradient(#FF69B4, #00FFFF);background-size: cover;
+    
+}
+
+html{
+    background-image: url("new5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.ul{
+    background: linear-gradient(#FF69B4, #00FFFF);background-size: cover;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+#dl{
+    padding: 5px;
+}
+
+
+
+#container{
+    display: flex;
+    align-items: center;
+}
+
+#container img{
+    margin-right: 20px;
+}
+
+#p5{
+    border: 5px solid;
+    height: 500px;
+    width: 1000px;
+    font-size: 17px;
+    background-color: #FF5800;
+   
+   margin-right: 500px;
+}
+#container1{
+    display: flex;
+    align-items: center;
+}
+
+#container1 img{
+    margin-right: 20px;
+}
+
+#p6{
+    border: 5px solid;
+    height: 500px;
+    width: 1000px;
+    font-size: 16.3px;
+    background-color: #2782FF;
+   
+   margin-right: 500px;
+}
+
+#btn-1{
+    font-size: 20px;
+    width:100px;
+    height: 50px;
+    border-style: inset;
+    background-color: #2782FF;
+}
+
+.form{
+    background-image: url("Naruto1.jpg");
+    background-size: cover;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+}
+
+
+
+
+.p4{
+    font-size: 22px
+    ;
+    
+    
+}
+
+#f1{
+    float: left;
+    border: 5px solid;
+    height: 150px;
+    width: 150px;
+   object-fit: contain;
+}
+
+#f2{
+    float: left;
+    border: 5px solid;
+    height: 150px;
+    width: 150px;
+   object-fit: contain;
+}
+
+#f3{
+    float: left;
+    border: 5px solid;
+    height: 150px;
+    width: 150px;
+   object-fit: contain;
+}
+
+.float{
+    outline: 2px solid red;
+    float: left ;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(naruto.ttf);
+}
+
+
+#a1:hover{
+    color: black;
+}
+#a1:active{
+ color: #66FF33;
+}
+#p8::after{
+    content: '*';
+    
+}
+
+.form1::after{
+    content:'*';
+}
+
+#p8::before{
+    content:'';
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    display: block;
+}
+
+#n1{
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 0px -5px 10px red, 0px 0px 10px gold;
+    display: flex;
+    align-items: center;
+    font-family: myFont;
+}
+
+#n1:hover{
+   box-shadow: 5px 2px 10px black;
+   
+}
+
+#n2{
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 0px -5px 10px purple, 0px 0px 10px blue;
+    display: flex;
+    align-items: center;
+    font-family: myFont;
+}
+
+#n2:hover{
+   box-shadow: 5px 2px 10px black;
+   
+}
+
+#n3{
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 0px -5px 10px #ff5349, 0px 0px 10px yellow;
+    display: flex;
+    align-items: center;
+    font-family: myFont;
+}
+
+#n3:hover{
+   box-shadow: 5px 2px 10px black;
+   
+}
+
+#n4{
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 0px -3px 5px red, 0px 0px 5px black;
+    display: flex;
+    align-items: center;
+    font-family: myFont;
+}
+
+#n4:hover{
+   box-shadow: 5px 2px 10px black;
+   
+}
+
+#n5{
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 0px -5px 9px blue, 0px 0px 5px pink;
+    display: flex;
+    align-items: center;
+    font-family: myFont;
+}
+
+#n5:hover{
+   box-shadow: 5px 2px 10px black;
+   
+}
+
+#n6{
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 0px -5px 10px #00FFFF, 0px 0px 10px #2782FF;
+    display: flex;
+    align-items: center;
+    font-family: myFont;
+}
+
+#n6:hover{
+   box-shadow: 5px 2px 10px black;
+   
+}
+
+.fa-github{
+    font-size: 25px;
+    position: fixed;
+    top: 20px;
+    right: 0px;
+    color: #333;
+}
+.fa-youtube{
+    font-size: 25px;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    color: red;
+}
+ #h2{
+    position: fixed;
+    top: 0px;
+    right: 60px;
+ }
+
+ .container3{
+    display: flex;
+    align-items: center;
+ }
+
+ .container4{
+    height: 250px;
+    width: 250px;
+ }
+
+ .container4:hover{
+    animation: 3s linear 0s infinite running myRotate;
+ }
+
+ @keyframes myRotate{
+   100%{transform: rotateZ(360deg);}
+ }
+
+ .container5{
+    height: 400px;
+    width: 500px;
+ }
+
+ .container5:hover{
+    animation: 3s linear 0s infinite running myRotate;
+ }
+
